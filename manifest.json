@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Netloc Deduplicator",
+  "description": "Deduplicates tabs by exact network location (netloc), keeping subdomains and ports distinct.",
+  "version": "1.2",
+  "permissions": [
+    "tabs"
+  ],
+  "action": {
+    "default_title": "Deduplicate tabs by netloc"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
